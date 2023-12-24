@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="693.7096774193546" y="2077.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_xapi_results</node>
+    <node x="2550.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_auth</node>
+    <node x="1314.469758064516" y="2169.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_languages</node>
+    <node x="-329.0" y="3031.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_tmpfiles</node>
+    <node x="246.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_content_user_data</node>
+    <node x="2431.094758064516" y="2180.5">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_cachedassets</node>
+    <node x="-113.04032258064535" y="-526.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_context</node>
+    <node x="-329.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_hub_cache</node>
+    <node x="-179.75" y="1040.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_bank_entries</node>
+    <node x="1842.094758064516" y="2146.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_contents_libraries</node>
+    <node x="1774.8346774193546" y="-296.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_user</node>
+    <node x="1003.25" y="1513.5">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_attempts</node>
+    <node x="3109.094758064516" y="2111.5">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_events</node>
+    <node x="1903.094758064516" y="1467.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libraries</node>
+    <node x="818.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_counters</node>
+    <node x="-211.04032258064535" y="1594.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_references</node>
+    <node x="1875.2096774193546" y="902.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question</node>
+    <node x="1398.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_content_hub_cache</node>
+    <node x="443.25" y="1617.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_versions</node>
+    <node x="-84.04838709677415" y="152.5">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_categories</node>
+    <node x="2095.0" y="2439.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_libraries</node>
+    <node x="2999.3649193548385" y="1364.0">fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_versions" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question" relationship="REFERENCES">
+      <point x="135.0" y="-77.5" />
+      <point x="848.25" y="1342.0" />
+      <point x="1109.4596774193546" y="1342.0" />
+      <point x="1109.4596774193546" y="1332.0" />
+      <point x="1993.7096774193546" y="1332.0" />
+      <point x="-118.5" y="204.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_cachedassets" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libraries" relationship="REFERENCES">
+      <point x="0.0" y="-55.0" />
+      <point x="2760.094758064516" y="2056.0" />
+      <point x="2121.594758064516" y="2056.0" />
+      <point x="0.0" y="227.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_attempts" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question" relationship="REFERENCES">
+      <point x="0.0" y="-181.0" />
+      <point x="1290.75" y="1342.0" />
+      <point x="1109.4596774193546" y="1342.0" />
+      <point x="1109.4596774193546" y="1332.0" />
+      <point x="1993.7096774193546" y="1332.0" />
+      <point x="-118.5" y="204.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_events" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp" relationship="REFERENCES">
+      <point x="-105.5" y="-124.0" />
+      <point x="3214.594758064516" y="2056.0" />
+      <point x="3228.1149193548385" y="2056.0" />
+      <point x="76.25" y="330.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_categories" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_context" relationship="REFERENCES">
+      <point x="0.0" y="-123.5" />
+      <point x="147.95161290322585" y="-322.0" />
+      <point x="108.95967741935465" y="-322.0" />
+      <point x="74.0" y="89.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_events" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_user" relationship="REFERENCES">
+      <point x="105.5" y="-124.0" />
+      <point x="3425.594758064516" y="2056.0" />
+      <point x="3345.451612903226" y="2056.0" />
+      <point x="3345.451612903226" y="880.0" />
+      <point x="1985.9596774193546" y="880.0" />
+      <point x="1985.9596774193546" y="870.0" />
+      <point x="1987.0846774193546" y="870.0" />
+      <point x="70.75" y="572.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_xapi_results" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_user" relationship="REFERENCES">
+      <point x="-104.0" y="-158.5" />
+      <point x="797.7096774193546" y="2056.0" />
+      <point x="432.75" y="2056.0" />
+      <point x="432.75" y="880.0" />
+      <point x="1985.9596774193546" y="880.0" />
+      <point x="1985.9596774193546" y="870.0" />
+      <point x="1987.0846774193546" y="870.0" />
+      <point x="70.75" y="572.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_bank_entries" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_categories" relationship="REFERENCES">
+      <point x="-150.5" y="-66.0" />
+      <point x="-29.25" y="880.0" />
+      <point x="147.95161290322585" y="880.0" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_versions" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_bank_entries" relationship="REFERENCES">
+      <point x="-135.0" y="-77.5" />
+      <point x="578.25" y="1342.0" />
+      <point x="121.25" y="1342.0" />
+      <point x="0.0" y="66.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question" relationship="REFERENCES">
+      <point x="0.0" y="-330.5" />
+      <point x="3151.8649193548385" y="1342.0" />
+      <point x="2230.7096774193546" y="1342.0" />
+      <point x="118.5" y="204.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_xapi_results" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_attempts" relationship="REFERENCES">
+      <point x="104.0" y="-158.5" />
+      <point x="1005.7096774193546" y="2056.0" />
+      <point x="1290.75" y="2056.0" />
+      <point x="0.0" y="181.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libs_languages" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libraries" relationship="REFERENCES">
+      <point x="0.0" y="-66.5" />
+      <point x="1534.969758064516" y="2056.0" />
+      <point x="2121.594758064516" y="2056.0" />
+      <point x="0.0" y="227.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_references" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_context" relationship="REFERENCES">
+      <point x="-232.20967741935465" y="-100.5" />
+      <point x="-197.25" y="-437.0" />
+      <point x="-148.0" y="-0.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_bank_entries" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_user" relationship="REFERENCES">
+      <point x="150.5" y="-66.0" />
+      <point x="271.75" y="870.0" />
+      <point x="1845.5846774193546" y="870.0" />
+      <point x="-70.75" y="572.0" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_contents_libraries" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp" relationship="REFERENCES">
+      <point x="142.25" y="-89.5" />
+      <point x="2268.844758064516" y="2046.0" />
+      <point x="3075.6149193548385" y="2046.0" />
+      <point x="-76.25" y="330.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_contents_libraries" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_qtype_hvp_libraries" relationship="REFERENCES">
+      <point x="-142.25" y="-89.5" />
+      <point x="1984.344758064516" y="2056.0" />
+      <point x="2121.594758064516" y="2056.0" />
+      <point x="0.0" y="227.5" />
+    </edge>
+    <edge source="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_references" target="fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_bank_entries" relationship="REFERENCES">
+      <point x="-0.0" y="-100.5" />
+      <point x="-86.29032258064535" y="66.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6031393841027755" showDependencies="false" x="225.35263359288103" y="1770.557157730812" />
+  <SelectedNodes>
+    <node>fa044ab3-88ce-44d4-a517-5c7e2cb3204f.TABLE:petel41401.mdl_question_references</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <object-set>
+    <table path="petel41401.mdl_qtype_hvp">
+      <table path="petel41401.mdl_question" name="question_vfk" from="question" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_contents_libraries">
+      <table path="petel41401.mdl_qtype_hvp" name="hvp_id_vfk" from="hvp_id" to="id"/>
+      <table path="petel41401.mdl_qtype_hvp_libraries" name="library_id_vfk" from="library_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_events">
+      <table path="petel41401.mdl_qtype_hvp" name="content_id_vfk" from="content_id" to="id"/>
+      <table path="petel41401.mdl_user" name="user_id_vfk" from="user_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_libs_cachedassets">
+      <table path="petel41401.mdl_qtype_hvp_libraries" name="library_id_vfk" from="library_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_libs_languages">
+      <table path="petel41401.mdl_qtype_hvp_libraries" name="library_id_vfk" from="library_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_libs_libraries">
+      <table path="petel41401.mdl_qtype_hvp_libraries" name="library_id_vfk" from="library_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_qtype_hvp_xapi_results">
+      <table path="petel41401.mdl_question_attempts" name="question_attempt_id_vfk" from="question_attempt_id" to="id"/>
+      <table path="petel41401.mdl_user" name="user_id_vfk" from="user_id" to="id"/>
+    </table>
+    <table path="petel41401.mdl_question_attempts">
+      <table path="petel41401.mdl_question" name="questionid_vfk" from="questionid" to="id"/>
+    </table>
+    <table path="petel41401.mdl_question_bank_entries">
+      <table path="petel41401.mdl_question_categories" name="questoincategoryid_vfk" from="questioncategoryid" to="id"/>
+      <table path="petel41401.mdl_user" name="user_vfk" from="ownerid" to="id"/>
+    </table>
+    <table path="petel41401.mdl_question_categories">
+      <table path="petel41401.mdl_context" name="contextid_vfk" from="contextid" to="id"/>
+    </table>
+    <table path="petel41401.mdl_question_references">
+      <table path="petel41401.mdl_context" name="contextid_vfk" from="usingcontextid" to="id"/>
+      <table path="petel41401.mdl_question_bank_entries" name="questionbankentryid_vfk" from="questionbankentryid" to="id"/>
+    </table>
+    <table path="petel41401.mdl_question_versions">
+      <table path="petel41401.mdl_question" name="question_vfk " from="questionid" to="id"/>
+      <table path="petel41401.mdl_question_bank_entries" name="questionbank_entry_vfk" from="questionbankentryid" to="id"/>
+    </table>
+  </object-set>
+</data>
